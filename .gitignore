@@ -4,3 +4,12 @@
 */build/
 *.o
 *.out
+CMakeCache.txt
+cmake_clean.cmake
+cmake_install.cmake
+compiler_depend.internal
+compiler_depend.ts
+DependInfo.cmake
+link.txt
+*.o.d
+CMakeCCompiler.cmake
