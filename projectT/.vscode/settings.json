@@ -1,0 +1,11 @@
+{
+    "cmake.debugConfig": {
+        "type": "lldb",
+        "request": "launch",
+        "program": "${command:cmake.launchTargetPath}",
+        "args": [],
+        "cwd": "${workspaceFolder}"
+        // 如果要弹出独立终端窗口解决 cin/cout，可加：
+        // "stdio": [null, null, null]
+    }
+}
